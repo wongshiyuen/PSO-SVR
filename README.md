@@ -1,4 +1,4 @@
-# PSO-SVR
+# Reduced Glass Temperature Prediction Via PSO-SVR
 Simple PSO-SVR model for estimating reduced glass temperature of different alloys solely based on alloy composition.
 Please input the file path for the downloaded input data file before using PSO-SVR model (marked with a 'TODO' comment on line 54).
 
