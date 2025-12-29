@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
-import tensorflow as tf
 import random
-import math
 import sys
 
 from sklearn.preprocessing import StandardScaler
@@ -13,7 +11,6 @@ from sklearn.svm import SVR
 from pyswarm import pso
 
 seed = 42 #Fix seed for repeatability purposes
-tf.random.set_seed(seed)
 np.random.seed(seed)
 random.seed(seed)
 #==================================================================================
@@ -54,7 +51,6 @@ filePath = 'Metallic_Glass_Forming_with_features2.xlsx'
 df = pd.read_excel(filePath) #Create datafile
 #----------------------------------------------------------------------------------
 #Separate dataframe into (groups of) parameters
-element = df.iloc[:,[0,1]]
 constElement = df.iloc[:,2:48]
 totalPerc = df['Total']
 trg = df['Trg']
@@ -142,4 +138,5 @@ print("Total Memory:", total_mem_kb, "KB")
 print('RMSE: ', rmse)
 print('SMAPE: ', smape)
 print('MAPE: ', mape)
+
 #==================================================================================
