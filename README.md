@@ -2,6 +2,10 @@
 Simple PSO-SVR model for estimating reduced glass temperature of different alloys solely based on alloy composition.
 
 ## Repository Contents
+|File Name                                  |File Type|Description
+|:------------------------------------------|:--------|:-------------------
+|Metallic_Glass_Forming_with_features2.xlsx |Excel    |Columns added for each alloy constituent in original Excel data file along with corresponding percentage values. More details in "Data Attribution" section.
+|pso_svr.py                                 |PY       |Contains code for training PSO-SVR model
 
 ##
 
