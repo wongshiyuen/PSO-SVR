@@ -8,12 +8,12 @@ Simple PSO-SVR model for estimating reduced glass temperature of different alloy
 |pso_svr.py                                 |PY       |Contains code for training PSO-SVR model
 
 ## Requirements
-*Python ≥ 3.9 (tested with version 3.11.9)
-*pandas ≥ 1.5.0 (tested with version 2.3.1)
-*numpy ≥ 1.17.3 (tested with version 2.1.3)
-*scikit‑learn ≥ 0.24.0 (tested with version 1.7.1)
-*pyswarm ≥ 0.6 (tested with version 0.6)
-*openpyxl ≥ 3.1.0 (tested with version 3.1.5)
+* Python ≥ 3.9 (tested with version 3.11.9)
+* pandas ≥ 1.5.0 (tested with version 2.3.1)
+* numpy ≥ 1.17.3 (tested with version 2.1.3)
+* scikit‑learn ≥ 0.24.0 (tested with version 1.7.1)
+* pyswarm ≥ 0.6 (tested with version 0.6)
+* openpyxl ≥ 3.1.0 (tested with version 3.1.5)
 
 ## Getting Started
 The following are the procedures for downloading and training the models in this repository using modified data derived from “Machine Learning Materials Datasets”:
